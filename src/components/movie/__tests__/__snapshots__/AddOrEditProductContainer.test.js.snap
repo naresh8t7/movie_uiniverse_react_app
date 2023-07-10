@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddOrEditMovieContainer.test.js renders without crashing 1`] = `
+<div
+  className="container"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="MovieForm"
+    getFormState={[Function]}
+    handleCancel={[Function]}
+    handleSave={[Function]}
+    heading="Add Movie"
+    initialValues={
+      Object {
+        "id": "",
+        "name": "",
+        "price": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieForm.test.js renders without crashing 1`] = `
+<form>
+  <h1>
+    Add
+  </h1>
+  <Field
+    component={[Function]}
+    label="Title"
+    name="title"
+    placeholder="Title of the movie"
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="year"
+    name="year"
+    placeholder="Year of the movie"
+    type="number"
+  />
+  <div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-paper-plane-o"
+      />
+       Submit
+    </button>
+    <button
+      className="btn btn-default btn-space"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;
