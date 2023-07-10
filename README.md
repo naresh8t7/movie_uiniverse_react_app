@@ -8,6 +8,10 @@ This MovieUniverse was bootstrapped with [Create React App](https://github.com/f
 * [d3.js](http://d3js.org/)
 * Jest
 * 
+## Demo
+
+![Movie Universe Home](MovieUniverse_Demo.png)
+
 
 ## Available Scripts
 
